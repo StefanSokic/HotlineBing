@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "My extension",
+  "name": "Hotline Bing",
   "description": "This extension shows a Google Image search result for the current page",
   "version": "1.0",
 
@@ -13,7 +13,12 @@
   "chrome_url_overrides" : {
     "newtab": "myPage.html"
   },
-  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "tabs"],
+  "permissions": [
+    "webRequest",
+    "\u003Call_urls\u003E",
+    "webRequestBlocking"
+  ],
+
   "background": {
     "scripts": ["background.js"]
   }
