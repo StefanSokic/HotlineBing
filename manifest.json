@@ -13,12 +13,34 @@
   "chrome_url_overrides" : {
     "newtab": "myPage.html"
   },
+
+  "chrome_settings_overrides": {
+    "homepage": "http://www.homepage.com",
+    "search_provider": {
+        "name": "name.__MSG_url_domain__",
+        "keyword": "keyword.__MSG_url_domain__",
+        "search_url": "http://www.bing.com/search?q={searchTerms}",
+        "favicon_url": "http://www.bing.com/favicon.ico",
+        "suggest_url": "http://www.bing.com/suggest?q={searchTerms}",
+        "instant_url": "http://www.bing.com/instant?q={searchTerms}",
+        "search_url_post_params": "search_lang=__MSG_url_domain__",
+        "suggest_url_post_params": "suggest_lang=__MSG_url_domain__",
+        "instant_url_post_params": "instant_lang=__MSG_url_domain__",
+        "image_url_post_params": "image_lang=__MSG_url_domain__",
+        "encoding": "UTF-8",
+        "is_default": true
+    },
+    "startup_pages": ["http://www.startup.com"]
+   },
+   
+
   "permissions": [
     "webRequest",
+    "tabs",
+    "activeTab",
     "\u003Call_urls\u003E",
     "webRequestBlocking"
   ],
-
   "background": {
     "scripts": ["background.js"]
   }
