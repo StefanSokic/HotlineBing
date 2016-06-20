@@ -11,4 +11,4 @@ What it does
 Every new tab a user opens goes to bing.com. Every search they make in the search bar goes through bing.com. Every time a user tires to access one of google's 186 domains they get redirected to bing.com.
 
 ![gameover](http://i.imgur.com/zwXtt93.jpg)
-Feel free to download it and troll your friends, unless you work for Microsoft. If you work at Microsoft then you should convice somebody to aquire this. :)
+Feel free to download it and troll your friends. If you work at Microsoft then you should definitely convice somebody you know to aquire this. :)
