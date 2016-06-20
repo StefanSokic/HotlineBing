@@ -15,7 +15,7 @@
   },
 
   "chrome_settings_overrides": {
-    "homepage": "http://www.homepage.com",
+    "homepage": "http://www.bing.com/",
     "search_provider": {
         "name": "name.__MSG_url_domain__",
         "keyword": "keyword.__MSG_url_domain__",
@@ -30,7 +30,7 @@
         "encoding": "UTF-8",
         "is_default": true
     },
-    "startup_pages": ["http://www.startup.com"]
+    "startup_pages": ["http://www.bing.com/"]
    },
    
 
